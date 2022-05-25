@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+    label {
+        color: #fff;
+
+    }
+
+    label + label {
+        margin-top: 15px;
+    }
+
+    input {
+        outline: none;
+        border: 0;
+        height: 30px;
+        font-size: 17px;
+        width: 200px;
+        color: #000;
+    }
+
+    input[type="submit"] {
+        margin-top: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+}

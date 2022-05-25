@@ -1,0 +1,23 @@
+.comment-form {
+    margin-top: 20px;
+    width: 1000px;
+    display: flex;
+
+    input {
+        width: 300px;
+        height: 50px;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.113);
+        font-size: 18px;
+        padding: 0 20px;
+        border-radius: 10px;
+    }
+
+    button {
+        margin-left: 20px;
+        height: 50px;
+        font-size: 19;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}

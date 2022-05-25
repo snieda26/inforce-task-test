@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "React Couse",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "count": 99,
+      "size": {
+        "width": 13,
+        "height": 33
+      },
+      "weight": "26"
+    }
+  ],
+  "comments": [
+    {
+      "id": 3,
+      "description": "test",
+      "date": "09:35 25.05.2022"
+    },
+    {
+      "id": 0.998724342223329,
+      "description": "wow!",
+      "date": "13:08 25.05.2022",
+      "productId": 1
+    },
+    {
+      "id": 0.02949409461426611,
+      "description": "it works!",
+      "date": "13:08 25.05.2022",
+      "productId": 1
+    }
+  ]
+}

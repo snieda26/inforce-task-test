@@ -1,0 +1,36 @@
+.product {
+    margin-top: 50px;
+    width: 300px;
+    height: 180px;
+    padding: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__info {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    &__name {
+        font-size: 21px;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,21 @@
+.products {
+    width: 100vw;
+    &__list {
+        width: 70vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__add {
+        display: block;
+        width: 100px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 80px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+}
